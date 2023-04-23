@@ -24,7 +24,7 @@ public class TrinityText {
     public static String key;
 
     public static void main(String[] arguments) {
-        String[] args = {"src/message.txt", "7632032990", "feceabd488c6bb8a1ef225165181a9af081ed4femr56fiwbHt2G0nrLd2KCXiPgE"};
+        String[] args = {"src/message.txt", "<phone number>", "<tetbelt key>"};
 
         //Check Arguments
         if (args.length > 3 || args.length < 1) {
@@ -34,7 +34,7 @@ public class TrinityText {
 
         //Check if custom key is input
         if (!(args.length == 3)) {
-            key = "feceabd488c6bb8a1ef225165181a9af081ed4femr56fiwbHt2G0nrLd2KCXiPgE";
+            key = "<textbelt key>";
         } else {
             key = args[2];
         }

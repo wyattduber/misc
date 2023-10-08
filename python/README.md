@@ -6,3 +6,6 @@ This is a script that I wrote for my cryptography class at ISU. I was quite prou
 
 This is a semi-simple script that implements DFS (Depth-First Search) to solve a word search. It is a WIP currently.
 
+# bible-reader
+
+More info in directory

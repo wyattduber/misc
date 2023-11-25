@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundleDevelopmentRegion</key> <string>en</string>
+    <key>CFBundleName</key> <string>MinecraftLauncher</string>
+    <key>CFBundleVersion</key> <string>1.0.1</string>
+    <key>CFBundleShortVersionString</key> <string>MinecraftLauncher 1.0.1</string>
+    <key>CFBundleExecutable</key> <string>JavaApplicationStub</string>
+    <key>CFBundlePackageType</key> <string>APPL</string>
+    <key>CFBundleSignature</key> <string>????</string>
+    <key>CFBundleGetInfoString</key> <string>MinecraftLauncher 1.0.1 © Mojang Specifications, Inc, 2013</string>
+    <key>CFBundleIconFile</key> <string>favicon.icns</string>
+    <key>CFBundleAllowMixedLocalizations</key> <true/>
+    <key>CFBundleInfoDictionaryVersion</key> <string>6.0</string>
+    <key>CFBundleIdentifier</key> <string>com.Mojang Specifications.Minecraft.Minecraft</string>
+    <key>LSHasLocalizedDisplayName</key> <true/>
+    <key>CFBundleDisplayName</key> <string>Minecraft</string>
+    <key>NSHighResolutionCapable</key> <true/>
+    <key>LSArchitecturePriority</key>
+    <array>
+      <string>x86_64</string>
+      <string>i386</string>
+    </array>
+    <key>Java</key>
+    <dict>
+      <key>MainClass</key> <string>net.minecraft.bootstrap.Bootstrap</string>
+      <key>ClassPath</key> <string>$APP_PACKAGE/Contents/Resources/Java/Bootstrap.jar:</string>
+      <key>Properties</key>
+      <dict>
+        <key>sun.java2d.noddraw</key> <string>true</string>
+        <key>sun.java2d.d3d</key> <string>false</string>
+        <key>sun.java2d.opengl</key> <string>false</string>
+        <key>sun.java2d.pmoffscreen</key> <string>false</string>
+      </dict>
+      <key>VMOptions</key> <string>-Xmx128m</string>
+      <key>JVMVersion</key> <string>1.6+</string>
+    </dict>
+  </dict>
+</plist>

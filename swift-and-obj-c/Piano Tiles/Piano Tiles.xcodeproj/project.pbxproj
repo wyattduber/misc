@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B6FF6AC1979567E000B5893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6FF6AB1979567E000B5893 /* Foundation.framework */; };
+		0B6FF6AE1979567E000B5893 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6FF6AD1979567E000B5893 /* CoreGraphics.framework */; };
+		0B6FF6B01979567E000B5893 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6FF6AF1979567E000B5893 /* UIKit.framework */; };
+		0B6FF6B61979567E000B5893 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B6FF6B41979567E000B5893 /* InfoPlist.strings */; };
+		0B6FF6B81979567E000B5893 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6FF6B71979567E000B5893 /* main.m */; };
+		0B6FF6BC1979567E000B5893 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6FF6BB1979567E000B5893 /* AppDelegate.m */; };
+		0B6FF6BF1979567E000B5893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6FF6BD1979567E000B5893 /* Main.storyboard */; };
+		0B6FF6C21979567E000B5893 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6FF6C11979567E000B5893 /* ViewController.m */; };
+		0B6FF6C41979567E000B5893 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6FF6C31979567E000B5893 /* Images.xcassets */; };
+		0B6FF6CB1979567E000B5893 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6FF6CA1979567E000B5893 /* XCTest.framework */; };
+		0B6FF6CC1979567E000B5893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6FF6AB1979567E000B5893 /* Foundation.framework */; };
+		0B6FF6CD1979567E000B5893 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6FF6AF1979567E000B5893 /* UIKit.framework */; };
+		0B6FF6D51979567E000B5893 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B6FF6D31979567E000B5893 /* InfoPlist.strings */; };
+		0B6FF6D71979567E000B5893 /* Piano_TilesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6FF6D61979567E000B5893 /* Piano_TilesTests.m */; };
+		0B6FF6E219795699000B5893 /* BlackTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6FF6E019795699000B5893 /* BlackTile.png */; };
+		0B6FF6E319795699000B5893 /* WhiteTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B6FF6E119795699000B5893 /* WhiteTile.png */; };
+		0B6FF6E6197957BC000B5893 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6FF6E5197957BC000B5893 /* Game.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B6FF6CE1979567E000B5893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B6FF6A01979567E000B5893 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B6FF6A71979567E000B5893;
+			remoteInfo = "Piano Tiles";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B6FF6A81979567E000B5893 /* Piano Tiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Piano Tiles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6FF6AB1979567E000B5893 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B6FF6AD1979567E000B5893 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0B6FF6AF1979567E000B5893 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0B6FF6B31979567E000B5893 /* Piano Tiles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Piano Tiles-Info.plist"; sourceTree = "<group>"; };
+		0B6FF6B51979567E000B5893 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B6FF6B71979567E000B5893 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B6FF6B91979567E000B5893 /* Piano Tiles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Piano Tiles-Prefix.pch"; sourceTree = "<group>"; };
+		0B6FF6BA1979567E000B5893 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B6FF6BB1979567E000B5893 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B6FF6BE1979567E000B5893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B6FF6C01979567E000B5893 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0B6FF6C11979567E000B5893 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0B6FF6C31979567E000B5893 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0B6FF6C91979567E000B5893 /* Piano TilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Piano TilesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6FF6CA1979567E000B5893 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0B6FF6D21979567E000B5893 /* Piano TilesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Piano TilesTests-Info.plist"; sourceTree = "<group>"; };
+		0B6FF6D41979567E000B5893 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B6FF6D61979567E000B5893 /* Piano_TilesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Piano_TilesTests.m; sourceTree = "<group>"; };
+		0B6FF6E019795699000B5893 /* BlackTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackTile.png; sourceTree = "<group>"; };
+		0B6FF6E119795699000B5893 /* WhiteTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteTile.png; sourceTree = "<group>"; };
+		0B6FF6E4197957BC000B5893 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		0B6FF6E5197957BC000B5893 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B6FF6A51979567E000B5893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6FF6AE1979567E000B5893 /* CoreGraphics.framework in Frameworks */,
+				0B6FF6B01979567E000B5893 /* UIKit.framework in Frameworks */,
+				0B6FF6AC1979567E000B5893 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B6FF6C61979567E000B5893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6FF6CB1979567E000B5893 /* XCTest.framework in Frameworks */,
+				0B6FF6CD1979567E000B5893 /* UIKit.framework in Frameworks */,
+				0B6FF6CC1979567E000B5893 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B6FF69F1979567E000B5893 = {
+			isa = PBXGroup;
+			children = (
+				0B6FF6B11979567E000B5893 /* Piano Tiles */,
+				0B6FF6D01979567E000B5893 /* Piano TilesTests */,
+				0B6FF6AA1979567E000B5893 /* Frameworks */,
+				0B6FF6A91979567E000B5893 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B6FF6A91979567E000B5893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B6FF6A81979567E000B5893 /* Piano Tiles.app */,
+				0B6FF6C91979567E000B5893 /* Piano TilesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B6FF6AA1979567E000B5893 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B6FF6AB1979567E000B5893 /* Foundation.framework */,
+				0B6FF6AD1979567E000B5893 /* CoreGraphics.framework */,
+				0B6FF6AF1979567E000B5893 /* UIKit.framework */,
+				0B6FF6CA1979567E000B5893 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B6FF6B11979567E000B5893 /* Piano Tiles */ = {
+			isa = PBXGroup;
+			children = (
+				0B6FF6BA1979567E000B5893 /* AppDelegate.h */,
+				0B6FF6BB1979567E000B5893 /* AppDelegate.m */,
+				0B6FF6BD1979567E000B5893 /* Main.storyboard */,
+				0B6FF6C01979567E000B5893 /* ViewController.h */,
+				0B6FF6C11979567E000B5893 /* ViewController.m */,
+				0B6FF6E4197957BC000B5893 /* Game.h */,
+				0B6FF6E5197957BC000B5893 /* Game.m */,
+				0B6FF6C31979567E000B5893 /* Images.xcassets */,
+				0B6FF6B21979567E000B5893 /* Supporting Files */,
+			);
+			path = "Piano Tiles";
+			sourceTree = "<group>";
+		};
+		0B6FF6B21979567E000B5893 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B6FF6E019795699000B5893 /* BlackTile.png */,
+				0B6FF6E119795699000B5893 /* WhiteTile.png */,
+				0B6FF6B31979567E000B5893 /* Piano Tiles-Info.plist */,
+				0B6FF6B41979567E000B5893 /* InfoPlist.strings */,
+				0B6FF6B71979567E000B5893 /* main.m */,
+				0B6FF6B91979567E000B5893 /* Piano Tiles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B6FF6D01979567E000B5893 /* Piano TilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B6FF6D61979567E000B5893 /* Piano_TilesTests.m */,
+				0B6FF6D11979567E000B5893 /* Supporting Files */,
+			);
+			path = "Piano TilesTests";
+			sourceTree = "<group>";
+		};
+		0B6FF6D11979567E000B5893 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B6FF6D21979567E000B5893 /* Piano TilesTests-Info.plist */,
+				0B6FF6D31979567E000B5893 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B6FF6A71979567E000B5893 /* Piano Tiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6FF6DA1979567E000B5893 /* Build configuration list for PBXNativeTarget "Piano Tiles" */;
+			buildPhases = (
+				0B6FF6A41979567E000B5893 /* Sources */,
+				0B6FF6A51979567E000B5893 /* Frameworks */,
+				0B6FF6A61979567E000B5893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Piano Tiles";
+			productName = "Piano Tiles";
+			productReference = 0B6FF6A81979567E000B5893 /* Piano Tiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B6FF6C81979567E000B5893 /* Piano TilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6FF6DD1979567E000B5893 /* Build configuration list for PBXNativeTarget "Piano TilesTests" */;
+			buildPhases = (
+				0B6FF6C51979567E000B5893 /* Sources */,
+				0B6FF6C61979567E000B5893 /* Frameworks */,
+				0B6FF6C71979567E000B5893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B6FF6CF1979567E000B5893 /* PBXTargetDependency */,
+			);
+			name = "Piano TilesTests";
+			productName = "Piano TilesTests";
+			productReference = 0B6FF6C91979567E000B5893 /* Piano TilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B6FF6A01979567E000B5893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DuberFam;
+				TargetAttributes = {
+					0B6FF6C81979567E000B5893 = {
+						TestTargetID = 0B6FF6A71979567E000B5893;
+					};
+				};
+			};
+			buildConfigurationList = 0B6FF6A31979567E000B5893 /* Build configuration list for PBXProject "Piano Tiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B6FF69F1979567E000B5893;
+			productRefGroup = 0B6FF6A91979567E000B5893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B6FF6A71979567E000B5893 /* Piano Tiles */,
+				0B6FF6C81979567E000B5893 /* Piano TilesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B6FF6A61979567E000B5893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6FF6C41979567E000B5893 /* Images.xcassets in Resources */,
+				0B6FF6B61979567E000B5893 /* InfoPlist.strings in Resources */,
+				0B6FF6E319795699000B5893 /* WhiteTile.png in Resources */,
+				0B6FF6BF1979567E000B5893 /* Main.storyboard in Resources */,
+				0B6FF6E219795699000B5893 /* BlackTile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B6FF6C71979567E000B5893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6FF6D51979567E000B5893 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B6FF6A41979567E000B5893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6FF6C21979567E000B5893 /* ViewController.m in Sources */,
+				0B6FF6BC1979567E000B5893 /* AppDelegate.m in Sources */,
+				0B6FF6B81979567E000B5893 /* main.m in Sources */,
+				0B6FF6E6197957BC000B5893 /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B6FF6C51979567E000B5893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6FF6D71979567E000B5893 /* Piano_TilesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B6FF6CF1979567E000B5893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B6FF6A71979567E000B5893 /* Piano Tiles */;
+			targetProxy = 0B6FF6CE1979567E000B5893 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B6FF6B41979567E000B5893 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B6FF6B51979567E000B5893 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0B6FF6BD1979567E000B5893 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B6FF6BE1979567E000B5893 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B6FF6D31979567E000B5893 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B6FF6D41979567E000B5893 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B6FF6D81979567E000B5893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B6FF6D91979567E000B5893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B6FF6DB1979567E000B5893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Piano Tiles/Piano Tiles-Prefix.pch";
+				INFOPLIST_FILE = "Piano Tiles/Piano Tiles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0B6FF6DC1979567E000B5893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Piano Tiles/Piano Tiles-Prefix.pch";
+				INFOPLIST_FILE = "Piano Tiles/Piano Tiles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0B6FF6DE1979567E000B5893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Piano Tiles.app/Piano Tiles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Piano Tiles/Piano Tiles-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Piano TilesTests/Piano TilesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0B6FF6DF1979567E000B5893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Piano Tiles.app/Piano Tiles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Piano Tiles/Piano Tiles-Prefix.pch";
+				INFOPLIST_FILE = "Piano TilesTests/Piano TilesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B6FF6A31979567E000B5893 /* Build configuration list for PBXProject "Piano Tiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6FF6D81979567E000B5893 /* Debug */,
+				0B6FF6D91979567E000B5893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B6FF6DA1979567E000B5893 /* Build configuration list for PBXNativeTarget "Piano Tiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6FF6DB1979567E000B5893 /* Debug */,
+				0B6FF6DC1979567E000B5893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B6FF6DD1979567E000B5893 /* Build configuration list for PBXNativeTarget "Piano TilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6FF6DE1979567E000B5893 /* Debug */,
+				0B6FF6DF1979567E000B5893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B6FF6A01979567E000B5893 /* Project object */;
+}

@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B9805781985C18800B437AC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9805771985C18800B437AC /* AudioToolbox.framework */; };
+		0BB02BCA1985B129001189E5 /* 68437__pinkyfinger__piano-a.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BB02BBE1985B129001189E5 /* 68437__pinkyfinger__piano-a.wav */; };
+		0BB02BCB1985B129001189E5 /* 68438__pinkyfinger__piano-b.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BB02BBF1985B129001189E5 /* 68438__pinkyfinger__piano-b.wav */; };
+		0BB02BCC1985B129001189E5 /* 68439__pinkyfinger__piano-bb.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BB02BC01985B129001189E5 /* 68439__pinkyfinger__piano-bb.wav */; };
+		0BB02BCD1985B129001189E5 /* 68440__pinkyfinger__piano-c.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BB02BC11985B129001189E5 /* 68440__pinkyfinger__piano-c.wav */; };
+		0BB02BCE1985B129001189E5 /* 68441__pinkyfinger__piano-c.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BB02BC21985B129001189E5 /* 68441__pinkyfinger__piano-c.wav */; };
+		0BB02BCF1985B129001189E5 /* 68442__pinkyfinger__piano-d.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BB02BC31985B129001189E5 /* 68442__pinkyfinger__piano-d.wav */; };
+		0BB02BD01985B129001189E5 /* 68443__pinkyfinger__piano-e.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BB02BC41985B129001189E5 /* 68443__pinkyfinger__piano-e.wav */; };
+		0BB02BD11985B129001189E5 /* 68444__pinkyfinger__piano-eb.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BB02BC51985B129001189E5 /* 68444__pinkyfinger__piano-eb.wav */; };
+		0BB02BD21985B129001189E5 /* 68445__pinkyfinger__piano-f.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BB02BC61985B129001189E5 /* 68445__pinkyfinger__piano-f.wav */; };
+		0BB02BD31985B129001189E5 /* 68446__pinkyfinger__piano-f.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BB02BC71985B129001189E5 /* 68446__pinkyfinger__piano-f.wav */; };
+		0BB02BD41985B129001189E5 /* 68447__pinkyfinger__piano-g.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BB02BC81985B129001189E5 /* 68447__pinkyfinger__piano-g.wav */; };
+		0BB02BD51985B129001189E5 /* 68448__pinkyfinger__piano-g.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0BB02BC91985B129001189E5 /* 68448__pinkyfinger__piano-g.wav */; };
+		DE7BD8BF19586DD200AC1948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7BD8BE19586DD200AC1948 /* Foundation.framework */; };
+		DE7BD8C119586DD200AC1948 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7BD8C019586DD200AC1948 /* CoreGraphics.framework */; };
+		DE7BD8C319586DD200AC1948 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7BD8C219586DD200AC1948 /* UIKit.framework */; };
+		DE7BD8C919586DD300AC1948 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE7BD8C719586DD300AC1948 /* InfoPlist.strings */; };
+		DE7BD8CB19586DD300AC1948 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7BD8CA19586DD300AC1948 /* main.m */; };
+		DE7BD8CF19586DD300AC1948 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7BD8CE19586DD300AC1948 /* AppDelegate.m */; };
+		DE7BD8D219586DD300AC1948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7BD8D019586DD300AC1948 /* Main.storyboard */; };
+		DE7BD8D519586DD300AC1948 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7BD8D419586DD300AC1948 /* ViewController.m */; };
+		DE7BD8D719586DD300AC1948 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7BD8D619586DD300AC1948 /* Images.xcassets */; };
+		DE7BD8DE19586DD300AC1948 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7BD8DD19586DD300AC1948 /* XCTest.framework */; };
+		DE7BD8DF19586DD300AC1948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7BD8BE19586DD200AC1948 /* Foundation.framework */; };
+		DE7BD8E019586DD300AC1948 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7BD8C219586DD200AC1948 /* UIKit.framework */; };
+		DE7BD8E819586DD300AC1948 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE7BD8E619586DD300AC1948 /* InfoPlist.strings */; };
+		DE7BD8EA19586DD300AC1948 /* White_Tiles_TutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7BD8E919586DD300AC1948 /* White_Tiles_TutorialTests.m */; };
+		DE7BD9081958755200AC1948 /* WhiteTile.png in Resources */ = {isa = PBXBuildFile; fileRef = DE7BD9051958755200AC1948 /* WhiteTile.png */; };
+		DE7BD9091958755200AC1948 /* BlackTile.png in Resources */ = {isa = PBXBuildFile; fileRef = DE7BD9061958755200AC1948 /* BlackTile.png */; };
+		DE7BD90A1958755200AC1948 /* MainMenuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DE7BD9071958755200AC1948 /* MainMenuBackground.png */; };
+		DE7BD90D1958793F00AC1948 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7BD90C1958793F00AC1948 /* Game.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE7BD8E119586DD300AC1948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE7BD8B319586DD200AC1948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE7BD8BA19586DD200AC1948;
+			remoteInfo = "White Tiles Tutorial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B9805771985C18800B437AC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0BB02BBE1985B129001189E5 /* 68437__pinkyfinger__piano-a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "68437__pinkyfinger__piano-a.wav"; sourceTree = "<group>"; };
+		0BB02BBF1985B129001189E5 /* 68438__pinkyfinger__piano-b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "68438__pinkyfinger__piano-b.wav"; sourceTree = "<group>"; };
+		0BB02BC01985B129001189E5 /* 68439__pinkyfinger__piano-bb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "68439__pinkyfinger__piano-bb.wav"; sourceTree = "<group>"; };
+		0BB02BC11985B129001189E5 /* 68440__pinkyfinger__piano-c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "68440__pinkyfinger__piano-c.wav"; sourceTree = "<group>"; };
+		0BB02BC21985B129001189E5 /* 68441__pinkyfinger__piano-c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "68441__pinkyfinger__piano-c.wav"; sourceTree = "<group>"; };
+		0BB02BC31985B129001189E5 /* 68442__pinkyfinger__piano-d.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "68442__pinkyfinger__piano-d.wav"; sourceTree = "<group>"; };
+		0BB02BC41985B129001189E5 /* 68443__pinkyfinger__piano-e.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "68443__pinkyfinger__piano-e.wav"; sourceTree = "<group>"; };
+		0BB02BC51985B129001189E5 /* 68444__pinkyfinger__piano-eb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "68444__pinkyfinger__piano-eb.wav"; sourceTree = "<group>"; };
+		0BB02BC61985B129001189E5 /* 68445__pinkyfinger__piano-f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "68445__pinkyfinger__piano-f.wav"; sourceTree = "<group>"; };
+		0BB02BC71985B129001189E5 /* 68446__pinkyfinger__piano-f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "68446__pinkyfinger__piano-f.wav"; sourceTree = "<group>"; };
+		0BB02BC81985B129001189E5 /* 68447__pinkyfinger__piano-g.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "68447__pinkyfinger__piano-g.wav"; sourceTree = "<group>"; };
+		0BB02BC91985B129001189E5 /* 68448__pinkyfinger__piano-g.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "68448__pinkyfinger__piano-g.wav"; sourceTree = "<group>"; };
+		DE7BD8BB19586DD200AC1948 /* White Tiles Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "White Tiles Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7BD8BE19586DD200AC1948 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE7BD8C019586DD200AC1948 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE7BD8C219586DD200AC1948 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE7BD8C619586DD200AC1948 /* White Tiles Tutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "White Tiles Tutorial-Info.plist"; sourceTree = "<group>"; };
+		DE7BD8C819586DD300AC1948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE7BD8CA19586DD300AC1948 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE7BD8CC19586DD300AC1948 /* White Tiles Tutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "White Tiles Tutorial-Prefix.pch"; sourceTree = "<group>"; };
+		DE7BD8CD19586DD300AC1948 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE7BD8CE19586DD300AC1948 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE7BD8D119586DD300AC1948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE7BD8D319586DD300AC1948 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE7BD8D419586DD300AC1948 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE7BD8D619586DD300AC1948 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE7BD8DC19586DD300AC1948 /* White Tiles TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "White Tiles TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7BD8DD19586DD300AC1948 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DE7BD8E519586DD300AC1948 /* White Tiles TutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "White Tiles TutorialTests-Info.plist"; sourceTree = "<group>"; };
+		DE7BD8E719586DD300AC1948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE7BD8E919586DD300AC1948 /* White_Tiles_TutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = White_Tiles_TutorialTests.m; sourceTree = "<group>"; };
+		DE7BD9051958755200AC1948 /* WhiteTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteTile.png; sourceTree = "<group>"; };
+		DE7BD9061958755200AC1948 /* BlackTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackTile.png; sourceTree = "<group>"; };
+		DE7BD9071958755200AC1948 /* MainMenuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainMenuBackground.png; sourceTree = "<group>"; };
+		DE7BD90B1958793F00AC1948 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		DE7BD90C1958793F00AC1948 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE7BD8B819586DD200AC1948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9805781985C18800B437AC /* AudioToolbox.framework in Frameworks */,
+				DE7BD8C119586DD200AC1948 /* CoreGraphics.framework in Frameworks */,
+				DE7BD8C319586DD200AC1948 /* UIKit.framework in Frameworks */,
+				DE7BD8BF19586DD200AC1948 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7BD8D919586DD300AC1948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7BD8DE19586DD300AC1948 /* XCTest.framework in Frameworks */,
+				DE7BD8E019586DD300AC1948 /* UIKit.framework in Frameworks */,
+				DE7BD8DF19586DD300AC1948 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE7BD8B219586DD200AC1948 = {
+			isa = PBXGroup;
+			children = (
+				DE7BD8C419586DD200AC1948 /* White Tiles Tutorial */,
+				DE7BD8E319586DD300AC1948 /* White Tiles TutorialTests */,
+				DE7BD8BD19586DD200AC1948 /* Frameworks */,
+				DE7BD8BC19586DD200AC1948 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE7BD8BC19586DD200AC1948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE7BD8BB19586DD200AC1948 /* White Tiles Tutorial.app */,
+				DE7BD8DC19586DD300AC1948 /* White Tiles TutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE7BD8BD19586DD200AC1948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B9805771985C18800B437AC /* AudioToolbox.framework */,
+				DE7BD8BE19586DD200AC1948 /* Foundation.framework */,
+				DE7BD8C019586DD200AC1948 /* CoreGraphics.framework */,
+				DE7BD8C219586DD200AC1948 /* UIKit.framework */,
+				DE7BD8DD19586DD300AC1948 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE7BD8C419586DD200AC1948 /* White Tiles Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				DE7BD8CD19586DD300AC1948 /* AppDelegate.h */,
+				DE7BD8CE19586DD300AC1948 /* AppDelegate.m */,
+				DE7BD8D019586DD300AC1948 /* Main.storyboard */,
+				DE7BD8D319586DD300AC1948 /* ViewController.h */,
+				DE7BD8D419586DD300AC1948 /* ViewController.m */,
+				DE7BD90B1958793F00AC1948 /* Game.h */,
+				DE7BD90C1958793F00AC1948 /* Game.m */,
+				DE7BD8D619586DD300AC1948 /* Images.xcassets */,
+				DE7BD8C519586DD200AC1948 /* Supporting Files */,
+			);
+			path = "White Tiles Tutorial";
+			sourceTree = "<group>";
+		};
+		DE7BD8C519586DD200AC1948 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BB02BBE1985B129001189E5 /* 68437__pinkyfinger__piano-a.wav */,
+				0BB02BBF1985B129001189E5 /* 68438__pinkyfinger__piano-b.wav */,
+				0BB02BC01985B129001189E5 /* 68439__pinkyfinger__piano-bb.wav */,
+				0BB02BC11985B129001189E5 /* 68440__pinkyfinger__piano-c.wav */,
+				0BB02BC21985B129001189E5 /* 68441__pinkyfinger__piano-c.wav */,
+				0BB02BC31985B129001189E5 /* 68442__pinkyfinger__piano-d.wav */,
+				0BB02BC41985B129001189E5 /* 68443__pinkyfinger__piano-e.wav */,
+				0BB02BC51985B129001189E5 /* 68444__pinkyfinger__piano-eb.wav */,
+				0BB02BC61985B129001189E5 /* 68445__pinkyfinger__piano-f.wav */,
+				0BB02BC71985B129001189E5 /* 68446__pinkyfinger__piano-f.wav */,
+				0BB02BC81985B129001189E5 /* 68447__pinkyfinger__piano-g.wav */,
+				0BB02BC91985B129001189E5 /* 68448__pinkyfinger__piano-g.wav */,
+				DE7BD9051958755200AC1948 /* WhiteTile.png */,
+				DE7BD9061958755200AC1948 /* BlackTile.png */,
+				DE7BD9071958755200AC1948 /* MainMenuBackground.png */,
+				DE7BD8C619586DD200AC1948 /* White Tiles Tutorial-Info.plist */,
+				DE7BD8C719586DD300AC1948 /* InfoPlist.strings */,
+				DE7BD8CA19586DD300AC1948 /* main.m */,
+				DE7BD8CC19586DD300AC1948 /* White Tiles Tutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE7BD8E319586DD300AC1948 /* White Tiles TutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE7BD8E919586DD300AC1948 /* White_Tiles_TutorialTests.m */,
+				DE7BD8E419586DD300AC1948 /* Supporting Files */,
+			);
+			path = "White Tiles TutorialTests";
+			sourceTree = "<group>";
+		};
+		DE7BD8E419586DD300AC1948 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE7BD8E519586DD300AC1948 /* White Tiles TutorialTests-Info.plist */,
+				DE7BD8E619586DD300AC1948 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE7BD8BA19586DD200AC1948 /* White Tiles Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE7BD8ED19586DD300AC1948 /* Build configuration list for PBXNativeTarget "White Tiles Tutorial" */;
+			buildPhases = (
+				DE7BD8B719586DD200AC1948 /* Sources */,
+				DE7BD8B819586DD200AC1948 /* Frameworks */,
+				DE7BD8B919586DD200AC1948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "White Tiles Tutorial";
+			productName = "White Tiles Tutorial";
+			productReference = DE7BD8BB19586DD200AC1948 /* White Tiles Tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE7BD8DB19586DD300AC1948 /* White Tiles TutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE7BD8F019586DD300AC1948 /* Build configuration list for PBXNativeTarget "White Tiles TutorialTests" */;
+			buildPhases = (
+				DE7BD8D819586DD300AC1948 /* Sources */,
+				DE7BD8D919586DD300AC1948 /* Frameworks */,
+				DE7BD8DA19586DD300AC1948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE7BD8E219586DD300AC1948 /* PBXTargetDependency */,
+			);
+			name = "White Tiles TutorialTests";
+			productName = "White Tiles TutorialTests";
+			productReference = DE7BD8DC19586DD300AC1948 /* White Tiles TutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE7BD8B319586DD200AC1948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Matt Heaney";
+				TargetAttributes = {
+					DE7BD8BA19586DD200AC1948 = {
+						DevelopmentTeam = 9Y2VRCFU3K;
+					};
+					DE7BD8DB19586DD300AC1948 = {
+						TestTargetID = DE7BD8BA19586DD200AC1948;
+					};
+				};
+			};
+			buildConfigurationList = DE7BD8B619586DD200AC1948 /* Build configuration list for PBXProject "White Tiles Tutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE7BD8B219586DD200AC1948;
+			productRefGroup = DE7BD8BC19586DD200AC1948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE7BD8BA19586DD200AC1948 /* White Tiles Tutorial */,
+				DE7BD8DB19586DD300AC1948 /* White Tiles TutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE7BD8B919586DD200AC1948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB02BCC1985B129001189E5 /* 68439__pinkyfinger__piano-bb.wav in Resources */,
+				0BB02BCB1985B129001189E5 /* 68438__pinkyfinger__piano-b.wav in Resources */,
+				DE7BD8D719586DD300AC1948 /* Images.xcassets in Resources */,
+				0BB02BD31985B129001189E5 /* 68446__pinkyfinger__piano-f.wav in Resources */,
+				0BB02BD51985B129001189E5 /* 68448__pinkyfinger__piano-g.wav in Resources */,
+				DE7BD90A1958755200AC1948 /* MainMenuBackground.png in Resources */,
+				0BB02BD11985B129001189E5 /* 68444__pinkyfinger__piano-eb.wav in Resources */,
+				0BB02BCD1985B129001189E5 /* 68440__pinkyfinger__piano-c.wav in Resources */,
+				DE7BD8C919586DD300AC1948 /* InfoPlist.strings in Resources */,
+				DE7BD9091958755200AC1948 /* BlackTile.png in Resources */,
+				0BB02BD41985B129001189E5 /* 68447__pinkyfinger__piano-g.wav in Resources */,
+				0BB02BCA1985B129001189E5 /* 68437__pinkyfinger__piano-a.wav in Resources */,
+				DE7BD8D219586DD300AC1948 /* Main.storyboard in Resources */,
+				0BB02BCF1985B129001189E5 /* 68442__pinkyfinger__piano-d.wav in Resources */,
+				0BB02BCE1985B129001189E5 /* 68441__pinkyfinger__piano-c.wav in Resources */,
+				0BB02BD21985B129001189E5 /* 68445__pinkyfinger__piano-f.wav in Resources */,
+				0BB02BD01985B129001189E5 /* 68443__pinkyfinger__piano-e.wav in Resources */,
+				DE7BD9081958755200AC1948 /* WhiteTile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7BD8DA19586DD300AC1948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7BD8E819586DD300AC1948 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE7BD8B719586DD200AC1948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7BD8D519586DD300AC1948 /* ViewController.m in Sources */,
+				DE7BD8CF19586DD300AC1948 /* AppDelegate.m in Sources */,
+				DE7BD8CB19586DD300AC1948 /* main.m in Sources */,
+				DE7BD90D1958793F00AC1948 /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7BD8D819586DD300AC1948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7BD8EA19586DD300AC1948 /* White_Tiles_TutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE7BD8E219586DD300AC1948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE7BD8BA19586DD200AC1948 /* White Tiles Tutorial */;
+			targetProxy = DE7BD8E119586DD300AC1948 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE7BD8C719586DD300AC1948 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE7BD8C819586DD300AC1948 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE7BD8D019586DD300AC1948 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE7BD8D119586DD300AC1948 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE7BD8E619586DD300AC1948 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE7BD8E719586DD300AC1948 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE7BD8EB19586DD300AC1948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE7BD8EC19586DD300AC1948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE7BD8EE19586DD300AC1948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "White Tiles Tutorial/White Tiles Tutorial-Prefix.pch";
+				INFOPLIST_FILE = "White Tiles Tutorial/White Tiles Tutorial-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Matt-Heaney.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE7BD8EF19586DD300AC1948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "White Tiles Tutorial/White Tiles Tutorial-Prefix.pch";
+				INFOPLIST_FILE = "White Tiles Tutorial/White Tiles Tutorial-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Matt-Heaney.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DE7BD8F119586DD300AC1948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/White Tiles Tutorial.app/White Tiles Tutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "White Tiles Tutorial/White Tiles Tutorial-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "White Tiles TutorialTests/White Tiles TutorialTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Matt-Heaney.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DE7BD8F219586DD300AC1948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/White Tiles Tutorial.app/White Tiles Tutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "White Tiles Tutorial/White Tiles Tutorial-Prefix.pch";
+				INFOPLIST_FILE = "White Tiles TutorialTests/White Tiles TutorialTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Matt-Heaney.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE7BD8B619586DD200AC1948 /* Build configuration list for PBXProject "White Tiles Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7BD8EB19586DD300AC1948 /* Debug */,
+				DE7BD8EC19586DD300AC1948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE7BD8ED19586DD300AC1948 /* Build configuration list for PBXNativeTarget "White Tiles Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7BD8EE19586DD300AC1948 /* Debug */,
+				DE7BD8EF19586DD300AC1948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE7BD8F019586DD300AC1948 /* Build configuration list for PBXNativeTarget "White Tiles TutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7BD8F119586DD300AC1948 /* Debug */,
+				DE7BD8F219586DD300AC1948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE7BD8B319586DD200AC1948 /* Project object */;
+}

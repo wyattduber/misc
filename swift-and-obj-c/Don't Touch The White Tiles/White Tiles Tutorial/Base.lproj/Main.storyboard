@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MainMenuBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="fdk-Mg-akj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tiles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W73-7f-SAd">
+                                <rect key="frame" x="20" y="211" width="280" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap 50 black tiles to restart the timer to 10 seconds! Don't let the time run out, and don't push any white tiles!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="hiY-vb-mPj">
+                                <rect key="frame" x="20" y="291" width="280" height="131"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="High Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YzZ-8b-Cnb">
+                                <rect key="frame" x="26" y="422" width="269" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Svc-Ah-c7n">
+                                <rect key="frame" x="62" y="465" width="196" height="66"/>
+                                <state key="normal" title="Play!">
+                                    <color key="titleColor" red="0.1019607931" green="0.10588236149999999" blue="0.039215687659999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5Nm-8E-nB0" kind="modal" id="z27-Pf-eMc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="HighScoreLabel" destination="YzZ-8b-Cnb" id="kUz-yH-2rB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-41" y="54"/>
+        </scene>
+        <!--Game-->
+        <scene sceneID="h1i-W2-wGa">
+            <objects>
+                <viewController id="5Nm-8E-nB0" customClass="Game" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8rP-F2-HIS"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Tu-Nt-QX3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XbL-UC-lBc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="EoN-ja-Qlw">
+                                <rect key="frame" x="0.0" y="20" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Y8-3N-d67">
+                                <rect key="frame" x="79" y="20" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="q73-83-OUa">
+                                <rect key="frame" x="158" y="20" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="0h2-Qf-Qar">
+                                <rect key="frame" x="237" y="20" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="0JP-7O-6o8">
+                                <rect key="frame" x="0.0" y="69" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="twD-Hu-kDy">
+                                <rect key="frame" x="79" y="69" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="e3C-TW-OYD">
+                                <rect key="frame" x="158" y="69" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ycf-UJ-6QM">
+                                <rect key="frame" x="237" y="69" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="6ci-dR-sPY">
+                                <rect key="frame" x="0.0" y="115" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="bzN-T1-NgD">
+                                <rect key="frame" x="79" y="115" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="rUd-In-K0A">
+                                <rect key="frame" x="158" y="115" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="SEa-jz-SsV">
+                                <rect key="frame" x="237" y="115" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="L9R-JJ-0E4">
+                                <rect key="frame" x="0.0" y="159" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="uv1-6n-rVO">
+                                <rect key="frame" x="79" y="159" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="lxF-vL-gZX">
+                                <rect key="frame" x="158" y="159" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="ArH-46-r7K">
+                                <rect key="frame" x="237" y="159" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dcy-FZ-1Ug">
+                                <rect key="frame" x="0.0" y="205" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="EaN-JZ-Hrz">
+                                <rect key="frame" x="79" y="205" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="CK0-wc-Pxt">
+                                <rect key="frame" x="158" y="205" width="80" height="141"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhiteTile.png" translatesAutoresizingMaskIntoConstraints="NO" id="wG7-CC-hi2">
+                                <rect key="frame" x="237" y="205" width="80" height="141"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91H-o2-GGD">
+                                <rect key="frame" x="65" y="77" width="191" height="30"/>
+                                <state key="normal" title="Start Game">
+                                    <color key="titleColor" red="0.1019607931" green="0.10588236149999999" blue="0.039215687659999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="StartGame:" destination="5Nm-8E-nB0" eventType="touchUpInside" id="g90-Pn-7MH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XfU-gf-p1h">
+                                <rect key="frame" x="0.0" y="318" width="80" height="250"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="RowDown1:" destination="5Nm-8E-nB0" eventType="touchUpInside" id="cgt-k2-h4e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IA9-l6-jYa">
+                                <rect key="frame" x="80" y="318" width="80" height="250"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="RowDown2:" destination="5Nm-8E-nB0" eventType="touchUpInside" id="dkB-wa-bRi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cgb-Tb-fI0">
+                                <rect key="frame" x="160" y="318" width="80" height="250"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="RowDown3:" destination="5Nm-8E-nB0" eventType="touchUpInside" id="IUa-jW-peY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9h-Qh-yDa">
+                                <rect key="frame" x="240" y="318" width="80" height="250"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="RowDown4:" destination="5Nm-8E-nB0" eventType="touchUpInside" id="A9n-3I-4s7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vt5-uq-rCx">
+                                <rect key="frame" x="0.0" y="15" width="159" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time: 10.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obg-wg-qgJ">
+                                <rect key="frame" x="160" y="15" width="160" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyP-uk-nam">
+                                <rect key="frame" x="79" y="115" width="161" height="46"/>
+                                <state key="normal" title="Exit">
+                                    <color key="titleColor" red="0.1019607931" green="0.10588236149999999" blue="0.039215687659999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="MM9-P0-f1o"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="Button1" destination="XfU-gf-p1h" id="F4d-kD-Qc6"/>
+                        <outlet property="Button2" destination="IA9-l6-jYa" id="4Vh-Iu-iig"/>
+                        <outlet property="Button3" destination="Cgb-Tb-fI0" id="kb3-Zq-qhw"/>
+                        <outlet property="Button4" destination="n9h-Qh-yDa" id="GYM-Vf-1tJ"/>
+                        <outlet property="Exit" destination="zyP-uk-nam" id="44H-o8-lKR"/>
+                        <outlet property="Row1Tile1" destination="Dcy-FZ-1Ug" id="ofU-rH-bik"/>
+                        <outlet property="Row1Tile2" destination="EaN-JZ-Hrz" id="Yno-9k-5sB"/>
+                        <outlet property="Row1Tile3" destination="CK0-wc-Pxt" id="tBv-e5-iyT"/>
+                        <outlet property="Row1Tile4" destination="wG7-CC-hi2" id="wYr-c1-fLV"/>
+                        <outlet property="Row2Tile1" destination="L9R-JJ-0E4" id="l9a-zC-Z0u"/>
+                        <outlet property="Row2Tile2" destination="uv1-6n-rVO" id="0U2-jC-hGG"/>
+                        <outlet property="Row2Tile3" destination="lxF-vL-gZX" id="6z9-Es-KeM"/>
+                        <outlet property="Row2Tile4" destination="ArH-46-r7K" id="ciH-IP-lrZ"/>
+                        <outlet property="Row3Tile1" destination="6ci-dR-sPY" id="gJm-Hp-e6a"/>
+                        <outlet property="Row3Tile2" destination="bzN-T1-NgD" id="hdX-A6-c5K"/>
+                        <outlet property="Row3Tile3" destination="rUd-In-K0A" id="Ht6-dw-PEC"/>
+                        <outlet property="Row3Tile4" destination="SEa-jz-SsV" id="fHq-5k-r5g"/>
+                        <outlet property="Row4Tile1" destination="0JP-7O-6o8" id="fUt-fr-q0L"/>
+                        <outlet property="Row4Tile2" destination="twD-Hu-kDy" id="GdO-l3-Pkm"/>
+                        <outlet property="Row4Tile3" destination="e3C-TW-OYD" id="uK1-MA-Lfa"/>
+                        <outlet property="Row4Tile4" destination="Ycf-UJ-6QM" id="ZIO-GD-15q"/>
+                        <outlet property="Row5Tile1" destination="EoN-ja-Qlw" id="JRF-S0-rfV"/>
+                        <outlet property="Row5Tile2" destination="3Y8-3N-d67" id="TnX-Kw-1zf"/>
+                        <outlet property="Row5Tile3" destination="q73-83-OUa" id="R4S-S1-2b3"/>
+                        <outlet property="Row5Tile4" destination="0h2-Qf-Qar" id="nTW-o5-7oW"/>
+                        <outlet property="ScoreLabel" destination="vt5-uq-rCx" id="buG-YN-UGw"/>
+                        <outlet property="Start" destination="91H-o2-GGD" id="djw-zs-e6M"/>
+                        <outlet property="TimeLabel" destination="obg-wg-qgJ" id="1Oy-E9-jbh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oFK-Xc-9jr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="402" y="54"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MainMenuBackground.png" width="320" height="568"/>
+        <image name="WhiteTile.png" width="80" height="141"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

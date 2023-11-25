@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC7064CB19E87FC8005A2A32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7064CA19E87FC8005A2A32 /* AppDelegate.swift */; };
+		FC7064CD19E87FC8005A2A32 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC7064CC19E87FC8005A2A32 /* GameScene.sks */; };
+		FC7064CF19E87FC8005A2A32 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7064CE19E87FC8005A2A32 /* GameScene.swift */; };
+		FC7064D119E87FC8005A2A32 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7064D019E87FC8005A2A32 /* GameViewController.swift */; };
+		FC7064D419E87FC8005A2A32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7064D219E87FC8005A2A32 /* Main.storyboard */; };
+		FC7064D619E87FC8005A2A32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7064D519E87FC8005A2A32 /* Images.xcassets */; };
+		FC7064D919E87FC8005A2A32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7064D719E87FC8005A2A32 /* LaunchScreen.xib */; };
+		FC7064E519E87FC8005A2A32 /* Game_of_LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7064E419E87FC8005A2A32 /* Game_of_LifeTests.swift */; };
+		FC7064F919E88122005A2A32 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7064EE19E88122005A2A32 /* background.png */; };
+		FC7064FA19E88122005A2A32 /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7064EF19E88122005A2A32 /* balloon.png */; };
+		FC7064FB19E88122005A2A32 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7064F019E88122005A2A32 /* bubble.png */; };
+		FC7064FC19E88122005A2A32 /* button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7064F119E88122005A2A32 /* button-pressed.png */; };
+		FC7064FD19E88122005A2A32 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7064F219E88122005A2A32 /* button.png */; };
+		FC7064FE19E88122005A2A32 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7064F319E88122005A2A32 /* grid.png */; };
+		FC7064FF19E88122005A2A32 /* microscope.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7064F419E88122005A2A32 /* microscope.png */; };
+		FC70650019E88122005A2A32 /* pause-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7064F519E88122005A2A32 /* pause-pressed.png */; };
+		FC70650119E88122005A2A32 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7064F619E88122005A2A32 /* pause.png */; };
+		FC70650219E88122005A2A32 /* play-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7064F719E88122005A2A32 /* play-pressed.png */; };
+		FC70650319E88122005A2A32 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7064F819E88122005A2A32 /* play.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC7064DF19E87FC8005A2A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7064BD19E87FC8005A2A32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC7064C419E87FC8005A2A32;
+			remoteInfo = "Game of Life";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC7064C519E87FC8005A2A32 /* Game of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7064C919E87FC8005A2A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7064CA19E87FC8005A2A32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC7064CC19E87FC8005A2A32 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FC7064CE19E87FC8005A2A32 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FC7064D019E87FC8005A2A32 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FC7064D319E87FC8005A2A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC7064D519E87FC8005A2A32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC7064D819E87FC8005A2A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC7064DE19E87FC8005A2A32 /* Game of LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game of LifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7064E319E87FC8005A2A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7064E419E87FC8005A2A32 /* Game_of_LifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_of_LifeTests.swift; sourceTree = "<group>"; };
+		FC7064EE19E88122005A2A32 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = SOURCE_ROOT; };
+		FC7064EF19E88122005A2A32 /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon.png; sourceTree = SOURCE_ROOT; };
+		FC7064F019E88122005A2A32 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = SOURCE_ROOT; };
+		FC7064F119E88122005A2A32 /* button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed.png"; sourceTree = SOURCE_ROOT; };
+		FC7064F219E88122005A2A32 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = SOURCE_ROOT; };
+		FC7064F319E88122005A2A32 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = SOURCE_ROOT; };
+		FC7064F419E88122005A2A32 /* microscope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microscope.png; sourceTree = SOURCE_ROOT; };
+		FC7064F519E88122005A2A32 /* pause-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-pressed.png"; sourceTree = SOURCE_ROOT; };
+		FC7064F619E88122005A2A32 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = SOURCE_ROOT; };
+		FC7064F719E88122005A2A32 /* play-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-pressed.png"; sourceTree = SOURCE_ROOT; };
+		FC7064F819E88122005A2A32 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC7064C219E87FC8005A2A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7064DB19E87FC8005A2A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC7064BC19E87FC8005A2A32 = {
+			isa = PBXGroup;
+			children = (
+				FC7064C719E87FC8005A2A32 /* Game of Life */,
+				FC7064E119E87FC8005A2A32 /* Game of LifeTests */,
+				FC7064C619E87FC8005A2A32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC7064C619E87FC8005A2A32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC7064C519E87FC8005A2A32 /* Game of Life.app */,
+				FC7064DE19E87FC8005A2A32 /* Game of LifeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC7064C719E87FC8005A2A32 /* Game of Life */ = {
+			isa = PBXGroup;
+			children = (
+				FC7064CA19E87FC8005A2A32 /* AppDelegate.swift */,
+				FC7064CC19E87FC8005A2A32 /* GameScene.sks */,
+				FC7064CE19E87FC8005A2A32 /* GameScene.swift */,
+				FC7064D019E87FC8005A2A32 /* GameViewController.swift */,
+				FC7064D219E87FC8005A2A32 /* Main.storyboard */,
+				FC7064D519E87FC8005A2A32 /* Images.xcassets */,
+				FC7064D719E87FC8005A2A32 /* LaunchScreen.xib */,
+				FC7064C819E87FC8005A2A32 /* Supporting Files */,
+			);
+			path = "Game of Life";
+			sourceTree = "<group>";
+		};
+		FC7064C819E87FC8005A2A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC7064EE19E88122005A2A32 /* background.png */,
+				FC7064EF19E88122005A2A32 /* balloon.png */,
+				FC7064F019E88122005A2A32 /* bubble.png */,
+				FC7064F119E88122005A2A32 /* button-pressed.png */,
+				FC7064F219E88122005A2A32 /* button.png */,
+				FC7064F319E88122005A2A32 /* grid.png */,
+				FC7064F419E88122005A2A32 /* microscope.png */,
+				FC7064F519E88122005A2A32 /* pause-pressed.png */,
+				FC7064F619E88122005A2A32 /* pause.png */,
+				FC7064F719E88122005A2A32 /* play-pressed.png */,
+				FC7064F819E88122005A2A32 /* play.png */,
+				FC7064C919E87FC8005A2A32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC7064E119E87FC8005A2A32 /* Game of LifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC7064E419E87FC8005A2A32 /* Game_of_LifeTests.swift */,
+				FC7064E219E87FC8005A2A32 /* Supporting Files */,
+			);
+			path = "Game of LifeTests";
+			sourceTree = "<group>";
+		};
+		FC7064E219E87FC8005A2A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC7064E319E87FC8005A2A32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC7064C419E87FC8005A2A32 /* Game of Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7064E819E87FC8005A2A32 /* Build configuration list for PBXNativeTarget "Game of Life" */;
+			buildPhases = (
+				FC7064C119E87FC8005A2A32 /* Sources */,
+				FC7064C219E87FC8005A2A32 /* Frameworks */,
+				FC7064C319E87FC8005A2A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Game of Life";
+			productName = "Game of Life";
+			productReference = FC7064C519E87FC8005A2A32 /* Game of Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC7064DD19E87FC8005A2A32 /* Game of LifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7064EB19E87FC8005A2A32 /* Build configuration list for PBXNativeTarget "Game of LifeTests" */;
+			buildPhases = (
+				FC7064DA19E87FC8005A2A32 /* Sources */,
+				FC7064DB19E87FC8005A2A32 /* Frameworks */,
+				FC7064DC19E87FC8005A2A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC7064E019E87FC8005A2A32 /* PBXTargetDependency */,
+			);
+			name = "Game of LifeTests";
+			productName = "Game of LifeTests";
+			productReference = FC7064DE19E87FC8005A2A32 /* Game of LifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC7064BD19E87FC8005A2A32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = DuberFam;
+				TargetAttributes = {
+					FC7064C419E87FC8005A2A32 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					FC7064DD19E87FC8005A2A32 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = FC7064C419E87FC8005A2A32;
+					};
+				};
+			};
+			buildConfigurationList = FC7064C019E87FC8005A2A32 /* Build configuration list for PBXProject "Game of Life" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC7064BC19E87FC8005A2A32;
+			productRefGroup = FC7064C619E87FC8005A2A32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC7064C419E87FC8005A2A32 /* Game of Life */,
+				FC7064DD19E87FC8005A2A32 /* Game of LifeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC7064C319E87FC8005A2A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7064FB19E88122005A2A32 /* bubble.png in Resources */,
+				FC70650119E88122005A2A32 /* pause.png in Resources */,
+				FC70650219E88122005A2A32 /* play-pressed.png in Resources */,
+				FC7064FE19E88122005A2A32 /* grid.png in Resources */,
+				FC7064D919E87FC8005A2A32 /* LaunchScreen.xib in Resources */,
+				FC7064F919E88122005A2A32 /* background.png in Resources */,
+				FC7064D619E87FC8005A2A32 /* Images.xcassets in Resources */,
+				FC70650019E88122005A2A32 /* pause-pressed.png in Resources */,
+				FC7064FC19E88122005A2A32 /* button-pressed.png in Resources */,
+				FC7064FA19E88122005A2A32 /* balloon.png in Resources */,
+				FC7064CD19E87FC8005A2A32 /* GameScene.sks in Resources */,
+				FC70650319E88122005A2A32 /* play.png in Resources */,
+				FC7064FD19E88122005A2A32 /* button.png in Resources */,
+				FC7064FF19E88122005A2A32 /* microscope.png in Resources */,
+				FC7064D419E87FC8005A2A32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7064DC19E87FC8005A2A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC7064C119E87FC8005A2A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7064CF19E87FC8005A2A32 /* GameScene.swift in Sources */,
+				FC7064D119E87FC8005A2A32 /* GameViewController.swift in Sources */,
+				FC7064CB19E87FC8005A2A32 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7064DA19E87FC8005A2A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7064E519E87FC8005A2A32 /* Game_of_LifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC7064E019E87FC8005A2A32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC7064C419E87FC8005A2A32 /* Game of Life */;
+			targetProxy = FC7064DF19E87FC8005A2A32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC7064D219E87FC8005A2A32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7064D319E87FC8005A2A32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC7064D719E87FC8005A2A32 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7064D819E87FC8005A2A32 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC7064E619E87FC8005A2A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC7064E719E87FC8005A2A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC7064E919E87FC8005A2A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Game of Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC7064EA19E87FC8005A2A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Game of Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC7064EC19E87FC8005A2A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Game of LifeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game of Life.app/Game of Life";
+			};
+			name = Debug;
+		};
+		FC7064ED19E87FC8005A2A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Game of LifeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game of Life.app/Game of Life";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC7064C019E87FC8005A2A32 /* Build configuration list for PBXProject "Game of Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7064E619E87FC8005A2A32 /* Debug */,
+				FC7064E719E87FC8005A2A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7064E819E87FC8005A2A32 /* Build configuration list for PBXNativeTarget "Game of Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7064E919E87FC8005A2A32 /* Debug */,
+				FC7064EA19E87FC8005A2A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC7064EB19E87FC8005A2A32 /* Build configuration list for PBXNativeTarget "Game of LifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7064EC19E87FC8005A2A32 /* Debug */,
+				FC7064ED19E87FC8005A2A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC7064BD19E87FC8005A2A32 /* Project object */;
+}

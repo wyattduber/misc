@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B5ACE86198AFBD2001B26DA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5ACE85198AFBD2001B26DA /* AudioToolbox.framework */; };
+		0BB1D4701986DC5C00A19149 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB1D46F1986DC5C00A19149 /* Foundation.framework */; };
+		0BB1D4721986DC5C00A19149 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB1D4711986DC5C00A19149 /* CoreGraphics.framework */; };
+		0BB1D4741986DC5C00A19149 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB1D4731986DC5C00A19149 /* UIKit.framework */; };
+		0BB1D47A1986DC5C00A19149 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BB1D4781986DC5C00A19149 /* InfoPlist.strings */; };
+		0BB1D47C1986DC5C00A19149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB1D47B1986DC5C00A19149 /* main.m */; };
+		0BB1D4801986DC5C00A19149 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB1D47F1986DC5C00A19149 /* AppDelegate.m */; };
+		0BB1D4831986DC5C00A19149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB1D4811986DC5C00A19149 /* Main.storyboard */; };
+		0BB1D4861986DC5C00A19149 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB1D4851986DC5C00A19149 /* ViewController.m */; };
+		0BB1D4881986DC5C00A19149 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB1D4871986DC5C00A19149 /* Images.xcassets */; };
+		0BB1D48F1986DC5C00A19149 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB1D48E1986DC5C00A19149 /* XCTest.framework */; };
+		0BB1D4901986DC5C00A19149 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB1D46F1986DC5C00A19149 /* Foundation.framework */; };
+		0BB1D4911986DC5C00A19149 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB1D4731986DC5C00A19149 /* UIKit.framework */; };
+		0BB1D4991986DC5C00A19149 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BB1D4971986DC5C00A19149 /* InfoPlist.strings */; };
+		0BB1D49B1986DC5C00A19149 /* Piano_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB1D49A1986DC5C00A19149 /* Piano_AppTests.m */; };
+		FC62ACA11B286C45008E1DAE /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC62AC951B286C45008E1DAE /* A.wav */; };
+		FC62ACA21B286C45008E1DAE /* Ab.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC62AC961B286C45008E1DAE /* Ab.wav */; };
+		FC62ACA31B286C45008E1DAE /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC62AC971B286C45008E1DAE /* B.wav */; };
+		FC62ACA41B286C45008E1DAE /* Bb.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC62AC981B286C45008E1DAE /* Bb.wav */; };
+		FC62ACA51B286C45008E1DAE /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC62AC991B286C45008E1DAE /* C.wav */; };
+		FC62ACA61B286C45008E1DAE /* C#.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC62AC9A1B286C45008E1DAE /* C#.wav */; };
+		FC62ACA71B286C45008E1DAE /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC62AC9B1B286C45008E1DAE /* D.wav */; };
+		FC62ACA81B286C45008E1DAE /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC62AC9C1B286C45008E1DAE /* E.wav */; };
+		FC62ACA91B286C45008E1DAE /* Eb.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC62AC9D1B286C45008E1DAE /* Eb.wav */; };
+		FC62ACAA1B286C45008E1DAE /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC62AC9E1B286C45008E1DAE /* F.wav */; };
+		FC62ACAB1B286C45008E1DAE /* F#.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC62AC9F1B286C45008E1DAE /* F#.wav */; };
+		FC62ACAC1B286C45008E1DAE /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC62ACA01B286C45008E1DAE /* G.wav */; };
+		FCD07B001B35DD79007AE061 /* BlackTile.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD07AFF1B35DD79007AE061 /* BlackTile.png */; };
+		FCD07B021B35DD83007AE061 /* WhiteTile.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD07B011B35DD83007AE061 /* WhiteTile.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BB1D4921986DC5C00A19149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BB1D4641986DC5C00A19149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BB1D46B1986DC5C00A19149;
+			remoteInfo = "Piano App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B5ACE85198AFBD2001B26DA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0BB1D46C1986DC5C00A19149 /* Piano App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Piano App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB1D46F1986DC5C00A19149 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0BB1D4711986DC5C00A19149 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0BB1D4731986DC5C00A19149 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0BB1D4771986DC5C00A19149 /* Piano App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Piano App-Info.plist"; sourceTree = "<group>"; };
+		0BB1D4791986DC5C00A19149 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BB1D47B1986DC5C00A19149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BB1D47D1986DC5C00A19149 /* Piano App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Piano App-Prefix.pch"; sourceTree = "<group>"; };
+		0BB1D47E1986DC5C00A19149 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BB1D47F1986DC5C00A19149 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BB1D4821986DC5C00A19149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BB1D4841986DC5C00A19149 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0BB1D4851986DC5C00A19149 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BB1D4871986DC5C00A19149 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BB1D48D1986DC5C00A19149 /* Piano AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Piano AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB1D48E1986DC5C00A19149 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0BB1D4961986DC5C00A19149 /* Piano AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Piano AppTests-Info.plist"; sourceTree = "<group>"; };
+		0BB1D4981986DC5C00A19149 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BB1D49A1986DC5C00A19149 /* Piano_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Piano_AppTests.m; sourceTree = "<group>"; };
+		FC62AC951B286C45008E1DAE /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = A.wav; path = "../../Piano Sounds/A.wav"; sourceTree = "<group>"; };
+		FC62AC961B286C45008E1DAE /* Ab.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Ab.wav; path = "../../Piano Sounds/Ab.wav"; sourceTree = "<group>"; };
+		FC62AC971B286C45008E1DAE /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = B.wav; path = "../../Piano Sounds/B.wav"; sourceTree = "<group>"; };
+		FC62AC981B286C45008E1DAE /* Bb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Bb.wav; path = "../../Piano Sounds/Bb.wav"; sourceTree = "<group>"; };
+		FC62AC991B286C45008E1DAE /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = C.wav; path = "../../Piano Sounds/C.wav"; sourceTree = "<group>"; };
+		FC62AC9A1B286C45008E1DAE /* C#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "C#.wav"; path = "../../Piano Sounds/C#.wav"; sourceTree = "<group>"; };
+		FC62AC9B1B286C45008E1DAE /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = D.wav; path = "../../Piano Sounds/D.wav"; sourceTree = "<group>"; };
+		FC62AC9C1B286C45008E1DAE /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = E.wav; path = "../../Piano Sounds/E.wav"; sourceTree = "<group>"; };
+		FC62AC9D1B286C45008E1DAE /* Eb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Eb.wav; path = "../../Piano Sounds/Eb.wav"; sourceTree = "<group>"; };
+		FC62AC9E1B286C45008E1DAE /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = F.wav; path = "../../Piano Sounds/F.wav"; sourceTree = "<group>"; };
+		FC62AC9F1B286C45008E1DAE /* F#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "F#.wav"; path = "../../Piano Sounds/F#.wav"; sourceTree = "<group>"; };
+		FC62ACA01B286C45008E1DAE /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = G.wav; path = "../../Piano Sounds/G.wav"; sourceTree = "<group>"; };
+		FCD07AFF1B35DD79007AE061 /* BlackTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlackTile.png; path = "../../All Photos/BlackTile.png"; sourceTree = "<group>"; };
+		FCD07B011B35DD83007AE061 /* WhiteTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WhiteTile.png; path = "../../All Photos/WhiteTile.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BB1D4691986DC5C00A19149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5ACE86198AFBD2001B26DA /* AudioToolbox.framework in Frameworks */,
+				0BB1D4721986DC5C00A19149 /* CoreGraphics.framework in Frameworks */,
+				0BB1D4741986DC5C00A19149 /* UIKit.framework in Frameworks */,
+				0BB1D4701986DC5C00A19149 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB1D48A1986DC5C00A19149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB1D48F1986DC5C00A19149 /* XCTest.framework in Frameworks */,
+				0BB1D4911986DC5C00A19149 /* UIKit.framework in Frameworks */,
+				0BB1D4901986DC5C00A19149 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB1D4631986DC5C00A19149 = {
+			isa = PBXGroup;
+			children = (
+				0BB1D4751986DC5C00A19149 /* Piano App */,
+				0BB1D4941986DC5C00A19149 /* Piano AppTests */,
+				0BB1D46E1986DC5C00A19149 /* Frameworks */,
+				0BB1D46D1986DC5C00A19149 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BB1D46D1986DC5C00A19149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BB1D46C1986DC5C00A19149 /* Piano App.app */,
+				0BB1D48D1986DC5C00A19149 /* Piano AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BB1D46E1986DC5C00A19149 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B5ACE85198AFBD2001B26DA /* AudioToolbox.framework */,
+				0BB1D46F1986DC5C00A19149 /* Foundation.framework */,
+				0BB1D4711986DC5C00A19149 /* CoreGraphics.framework */,
+				0BB1D4731986DC5C00A19149 /* UIKit.framework */,
+				0BB1D48E1986DC5C00A19149 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BB1D4751986DC5C00A19149 /* Piano App */ = {
+			isa = PBXGroup;
+			children = (
+				0BB1D47E1986DC5C00A19149 /* AppDelegate.h */,
+				0BB1D47F1986DC5C00A19149 /* AppDelegate.m */,
+				0BB1D4811986DC5C00A19149 /* Main.storyboard */,
+				0BB1D4841986DC5C00A19149 /* ViewController.h */,
+				0BB1D4851986DC5C00A19149 /* ViewController.m */,
+				0BB1D4871986DC5C00A19149 /* Images.xcassets */,
+				0BB1D4761986DC5C00A19149 /* Supporting Files */,
+			);
+			path = "Piano App";
+			sourceTree = "<group>";
+		};
+		0BB1D4761986DC5C00A19149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC62AC951B286C45008E1DAE /* A.wav */,
+				FC62AC961B286C45008E1DAE /* Ab.wav */,
+				FC62AC971B286C45008E1DAE /* B.wav */,
+				FC62AC981B286C45008E1DAE /* Bb.wav */,
+				FC62AC991B286C45008E1DAE /* C.wav */,
+				FC62AC9A1B286C45008E1DAE /* C#.wav */,
+				FC62AC9B1B286C45008E1DAE /* D.wav */,
+				FC62AC9C1B286C45008E1DAE /* E.wav */,
+				FC62AC9D1B286C45008E1DAE /* Eb.wav */,
+				FC62AC9E1B286C45008E1DAE /* F.wav */,
+				FC62AC9F1B286C45008E1DAE /* F#.wav */,
+				FC62ACA01B286C45008E1DAE /* G.wav */,
+				FCD07AFF1B35DD79007AE061 /* BlackTile.png */,
+				FCD07B011B35DD83007AE061 /* WhiteTile.png */,
+				0BB1D4771986DC5C00A19149 /* Piano App-Info.plist */,
+				0BB1D4781986DC5C00A19149 /* InfoPlist.strings */,
+				0BB1D47B1986DC5C00A19149 /* main.m */,
+				0BB1D47D1986DC5C00A19149 /* Piano App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BB1D4941986DC5C00A19149 /* Piano AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BB1D49A1986DC5C00A19149 /* Piano_AppTests.m */,
+				0BB1D4951986DC5C00A19149 /* Supporting Files */,
+			);
+			path = "Piano AppTests";
+			sourceTree = "<group>";
+		};
+		0BB1D4951986DC5C00A19149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BB1D4961986DC5C00A19149 /* Piano AppTests-Info.plist */,
+				0BB1D4971986DC5C00A19149 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BB1D46B1986DC5C00A19149 /* Piano App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BB1D49E1986DC5C00A19149 /* Build configuration list for PBXNativeTarget "Piano App" */;
+			buildPhases = (
+				0BB1D4681986DC5C00A19149 /* Sources */,
+				0BB1D4691986DC5C00A19149 /* Frameworks */,
+				0BB1D46A1986DC5C00A19149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Piano App";
+			productName = "Piano App";
+			productReference = 0BB1D46C1986DC5C00A19149 /* Piano App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BB1D48C1986DC5C00A19149 /* Piano AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BB1D4A11986DC5C00A19149 /* Build configuration list for PBXNativeTarget "Piano AppTests" */;
+			buildPhases = (
+				0BB1D4891986DC5C00A19149 /* Sources */,
+				0BB1D48A1986DC5C00A19149 /* Frameworks */,
+				0BB1D48B1986DC5C00A19149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BB1D4931986DC5C00A19149 /* PBXTargetDependency */,
+			);
+			name = "Piano AppTests";
+			productName = "Piano AppTests";
+			productReference = 0BB1D48D1986DC5C00A19149 /* Piano AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BB1D4641986DC5C00A19149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DuberFam;
+				TargetAttributes = {
+					0BB1D48C1986DC5C00A19149 = {
+						TestTargetID = 0BB1D46B1986DC5C00A19149;
+					};
+				};
+			};
+			buildConfigurationList = 0BB1D4671986DC5C00A19149 /* Build configuration list for PBXProject "Piano App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BB1D4631986DC5C00A19149;
+			productRefGroup = 0BB1D46D1986DC5C00A19149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BB1D46B1986DC5C00A19149 /* Piano App */,
+				0BB1D48C1986DC5C00A19149 /* Piano AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BB1D46A1986DC5C00A19149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC62ACA11B286C45008E1DAE /* A.wav in Resources */,
+				FC62ACA21B286C45008E1DAE /* Ab.wav in Resources */,
+				0BB1D4881986DC5C00A19149 /* Images.xcassets in Resources */,
+				FC62ACAA1B286C45008E1DAE /* F.wav in Resources */,
+				FC62ACA41B286C45008E1DAE /* Bb.wav in Resources */,
+				FC62ACA61B286C45008E1DAE /* C#.wav in Resources */,
+				FC62ACAC1B286C45008E1DAE /* G.wav in Resources */,
+				FC62ACA51B286C45008E1DAE /* C.wav in Resources */,
+				FC62ACA31B286C45008E1DAE /* B.wav in Resources */,
+				0BB1D47A1986DC5C00A19149 /* InfoPlist.strings in Resources */,
+				FC62ACA81B286C45008E1DAE /* E.wav in Resources */,
+				FC62ACAB1B286C45008E1DAE /* F#.wav in Resources */,
+				FC62ACA71B286C45008E1DAE /* D.wav in Resources */,
+				FC62ACA91B286C45008E1DAE /* Eb.wav in Resources */,
+				0BB1D4831986DC5C00A19149 /* Main.storyboard in Resources */,
+				FCD07B021B35DD83007AE061 /* WhiteTile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB1D48B1986DC5C00A19149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB1D4991986DC5C00A19149 /* InfoPlist.strings in Resources */,
+				FCD07B001B35DD79007AE061 /* BlackTile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BB1D4681986DC5C00A19149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB1D4861986DC5C00A19149 /* ViewController.m in Sources */,
+				0BB1D4801986DC5C00A19149 /* AppDelegate.m in Sources */,
+				0BB1D47C1986DC5C00A19149 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB1D4891986DC5C00A19149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB1D49B1986DC5C00A19149 /* Piano_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BB1D4931986DC5C00A19149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BB1D46B1986DC5C00A19149 /* Piano App */;
+			targetProxy = 0BB1D4921986DC5C00A19149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BB1D4781986DC5C00A19149 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BB1D4791986DC5C00A19149 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BB1D4811986DC5C00A19149 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BB1D4821986DC5C00A19149 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BB1D4971986DC5C00A19149 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BB1D4981986DC5C00A19149 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BB1D49C1986DC5C00A19149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0BB1D49D1986DC5C00A19149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BB1D49F1986DC5C00A19149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Piano App/Piano App-Prefix.pch";
+				INFOPLIST_FILE = "Piano App/Piano App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BB1D4A01986DC5C00A19149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Piano App/Piano App-Prefix.pch";
+				INFOPLIST_FILE = "Piano App/Piano App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0BB1D4A21986DC5C00A19149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Piano App.app/Piano App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Piano App/Piano App-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Piano AppTests/Piano AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0BB1D4A31986DC5C00A19149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Piano App.app/Piano App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Piano App/Piano App-Prefix.pch";
+				INFOPLIST_FILE = "Piano AppTests/Piano AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BB1D4671986DC5C00A19149 /* Build configuration list for PBXProject "Piano App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB1D49C1986DC5C00A19149 /* Debug */,
+				0BB1D49D1986DC5C00A19149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BB1D49E1986DC5C00A19149 /* Build configuration list for PBXNativeTarget "Piano App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB1D49F1986DC5C00A19149 /* Debug */,
+				0BB1D4A01986DC5C00A19149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BB1D4A11986DC5C00A19149 /* Build configuration list for PBXNativeTarget "Piano AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB1D4A21986DC5C00A19149 /* Debug */,
+				0BB1D4A31986DC5C00A19149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BB1D4641986DC5C00A19149 /* Project object */;
+}

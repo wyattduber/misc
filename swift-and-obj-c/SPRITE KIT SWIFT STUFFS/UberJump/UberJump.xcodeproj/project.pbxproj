@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC740DC31C42C55100CC355E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC740DC21C42C55100CC355E /* AppDelegate.swift */; };
+		FC740DC51C42C55100CC355E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC740DC41C42C55100CC355E /* GameScene.sks */; };
+		FC740DC71C42C55100CC355E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC740DC61C42C55100CC355E /* GameScene.swift */; };
+		FC740DC91C42C55100CC355E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC740DC81C42C55100CC355E /* GameViewController.swift */; };
+		FC740DCC1C42C55100CC355E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC740DCA1C42C55100CC355E /* Main.storyboard */; };
+		FC740DCE1C42C55200CC355E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC740DCD1C42C55200CC355E /* Assets.xcassets */; };
+		FC740DD11C42C55200CC355E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC740DCF1C42C55200CC355E /* LaunchScreen.storyboard */; };
+		FC740DDC1C42C55200CC355E /* UberJumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC740DDB1C42C55200CC355E /* UberJumpTests.swift */; };
+		FC740DE71C42C55200CC355E /* UberJumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC740DE61C42C55200CC355E /* UberJumpUITests.swift */; };
+		FC740DFB1C42C6A400CC355E /* Supporting Files in Resources */ = {isa = PBXBuildFile; fileRef = FC740DFA1C42C6A400CC355E /* Supporting Files */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC740DD81C42C55200CC355E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC740DB71C42C55100CC355E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC740DBE1C42C55100CC355E;
+			remoteInfo = UberJump;
+		};
+		FC740DE31C42C55200CC355E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC740DB71C42C55100CC355E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC740DBE1C42C55100CC355E;
+			remoteInfo = UberJump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC740DBF1C42C55100CC355E /* UberJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC740DC21C42C55100CC355E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC740DC41C42C55100CC355E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FC740DC61C42C55100CC355E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FC740DC81C42C55100CC355E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FC740DCB1C42C55100CC355E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC740DCD1C42C55200CC355E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC740DD01C42C55200CC355E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC740DD21C42C55200CC355E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC740DD71C42C55200CC355E /* UberJumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberJumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC740DDB1C42C55200CC355E /* UberJumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberJumpTests.swift; sourceTree = "<group>"; };
+		FC740DDD1C42C55200CC355E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC740DE21C42C55200CC355E /* UberJumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberJumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC740DE61C42C55200CC355E /* UberJumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberJumpUITests.swift; sourceTree = "<group>"; };
+		FC740DE81C42C55200CC355E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC740DFA1C42C6A400CC355E /* Supporting Files */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Supporting Files"; path = "../../../../../Supporting Files"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC740DBC1C42C55100CC355E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC740DD41C42C55200CC355E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC740DDF1C42C55200CC355E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC740DB61C42C55100CC355E = {
+			isa = PBXGroup;
+			children = (
+				FC740DC11C42C55100CC355E /* UberJump */,
+				FC740DDA1C42C55200CC355E /* UberJumpTests */,
+				FC740DE51C42C55200CC355E /* UberJumpUITests */,
+				FC740DC01C42C55100CC355E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC740DC01C42C55100CC355E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC740DBF1C42C55100CC355E /* UberJump.app */,
+				FC740DD71C42C55200CC355E /* UberJumpTests.xctest */,
+				FC740DE21C42C55200CC355E /* UberJumpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC740DC11C42C55100CC355E /* UberJump */ = {
+			isa = PBXGroup;
+			children = (
+				FC740DC21C42C55100CC355E /* AppDelegate.swift */,
+				FC740DC41C42C55100CC355E /* GameScene.sks */,
+				FC740DC61C42C55100CC355E /* GameScene.swift */,
+				FC740DC81C42C55100CC355E /* GameViewController.swift */,
+				FC740DCA1C42C55100CC355E /* Main.storyboard */,
+				FC740DCD1C42C55200CC355E /* Assets.xcassets */,
+				FC740DCF1C42C55200CC355E /* LaunchScreen.storyboard */,
+				FC740DD21C42C55200CC355E /* Info.plist */,
+				FC740DFA1C42C6A400CC355E /* Supporting Files */,
+			);
+			path = UberJump;
+			sourceTree = "<group>";
+		};
+		FC740DDA1C42C55200CC355E /* UberJumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC740DDB1C42C55200CC355E /* UberJumpTests.swift */,
+				FC740DDD1C42C55200CC355E /* Info.plist */,
+			);
+			path = UberJumpTests;
+			sourceTree = "<group>";
+		};
+		FC740DE51C42C55200CC355E /* UberJumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC740DE61C42C55200CC355E /* UberJumpUITests.swift */,
+				FC740DE81C42C55200CC355E /* Info.plist */,
+			);
+			path = UberJumpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC740DBE1C42C55100CC355E /* UberJump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC740DEB1C42C55200CC355E /* Build configuration list for PBXNativeTarget "UberJump" */;
+			buildPhases = (
+				FC740DBB1C42C55100CC355E /* Sources */,
+				FC740DBC1C42C55100CC355E /* Frameworks */,
+				FC740DBD1C42C55100CC355E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberJump;
+			productName = UberJump;
+			productReference = FC740DBF1C42C55100CC355E /* UberJump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC740DD61C42C55200CC355E /* UberJumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC740DEE1C42C55200CC355E /* Build configuration list for PBXNativeTarget "UberJumpTests" */;
+			buildPhases = (
+				FC740DD31C42C55200CC355E /* Sources */,
+				FC740DD41C42C55200CC355E /* Frameworks */,
+				FC740DD51C42C55200CC355E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC740DD91C42C55200CC355E /* PBXTargetDependency */,
+			);
+			name = UberJumpTests;
+			productName = UberJumpTests;
+			productReference = FC740DD71C42C55200CC355E /* UberJumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC740DE11C42C55200CC355E /* UberJumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC740DF11C42C55200CC355E /* Build configuration list for PBXNativeTarget "UberJumpUITests" */;
+			buildPhases = (
+				FC740DDE1C42C55200CC355E /* Sources */,
+				FC740DDF1C42C55200CC355E /* Frameworks */,
+				FC740DE01C42C55200CC355E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC740DE41C42C55200CC355E /* PBXTargetDependency */,
+			);
+			name = UberJumpUITests;
+			productName = UberJumpUITests;
+			productReference = FC740DE21C42C55200CC355E /* UberJumpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC740DB71C42C55100CC355E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DuberFam;
+				TargetAttributes = {
+					FC740DBE1C42C55100CC355E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9Y2VRCFU3K;
+					};
+					FC740DD61C42C55200CC355E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9Y2VRCFU3K;
+						TestTargetID = FC740DBE1C42C55100CC355E;
+					};
+					FC740DE11C42C55200CC355E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9Y2VRCFU3K;
+						TestTargetID = FC740DBE1C42C55100CC355E;
+					};
+				};
+			};
+			buildConfigurationList = FC740DBA1C42C55100CC355E /* Build configuration list for PBXProject "UberJump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC740DB61C42C55100CC355E;
+			productRefGroup = FC740DC01C42C55100CC355E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC740DBE1C42C55100CC355E /* UberJump */,
+				FC740DD61C42C55200CC355E /* UberJumpTests */,
+				FC740DE11C42C55200CC355E /* UberJumpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC740DBD1C42C55100CC355E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC740DC51C42C55100CC355E /* GameScene.sks in Resources */,
+				FC740DD11C42C55200CC355E /* LaunchScreen.storyboard in Resources */,
+				FC740DCE1C42C55200CC355E /* Assets.xcassets in Resources */,
+				FC740DFB1C42C6A400CC355E /* Supporting Files in Resources */,
+				FC740DCC1C42C55100CC355E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC740DD51C42C55200CC355E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC740DE01C42C55200CC355E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC740DBB1C42C55100CC355E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC740DC71C42C55100CC355E /* GameScene.swift in Sources */,
+				FC740DC91C42C55100CC355E /* GameViewController.swift in Sources */,
+				FC740DC31C42C55100CC355E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC740DD31C42C55200CC355E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC740DDC1C42C55200CC355E /* UberJumpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC740DDE1C42C55200CC355E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC740DE71C42C55200CC355E /* UberJumpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC740DD91C42C55200CC355E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC740DBE1C42C55100CC355E /* UberJump */;
+			targetProxy = FC740DD81C42C55200CC355E /* PBXContainerItemProxy */;
+		};
+		FC740DE41C42C55200CC355E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC740DBE1C42C55100CC355E /* UberJump */;
+			targetProxy = FC740DE31C42C55200CC355E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC740DCA1C42C55100CC355E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC740DCB1C42C55100CC355E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC740DCF1C42C55200CC355E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC740DD01C42C55200CC355E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC740DE91C42C55200CC355E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC740DEA1C42C55200CC355E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC740DEC1C42C55200CC355E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UberJump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DuberFam.UberJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC740DED1C42C55200CC355E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UberJump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DuberFam.UberJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC740DEF1C42C55200CC355E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = UberJumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DuberFam.UberJumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberJump.app/UberJump";
+			};
+			name = Debug;
+		};
+		FC740DF01C42C55200CC355E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UberJumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DuberFam.UberJumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberJump.app/UberJump";
+			};
+			name = Release;
+		};
+		FC740DF21C42C55200CC355E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = UberJumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DuberFam.UberJumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UberJump;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FC740DF31C42C55200CC355E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UberJumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DuberFam.UberJumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UberJump;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC740DBA1C42C55100CC355E /* Build configuration list for PBXProject "UberJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC740DE91C42C55200CC355E /* Debug */,
+				FC740DEA1C42C55200CC355E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC740DEB1C42C55200CC355E /* Build configuration list for PBXNativeTarget "UberJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC740DEC1C42C55200CC355E /* Debug */,
+				FC740DED1C42C55200CC355E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC740DEE1C42C55200CC355E /* Build configuration list for PBXNativeTarget "UberJumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC740DEF1C42C55200CC355E /* Debug */,
+				FC740DF01C42C55200CC355E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC740DF11C42C55200CC355E /* Build configuration list for PBXNativeTarget "UberJumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC740DF21C42C55200CC355E /* Debug */,
+				FC740DF31C42C55200CC355E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC740DB71C42C55100CC355E /* Project object */;
+}

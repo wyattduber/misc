@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC4DE87C1B2C94E700608FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DE87B1B2C94E700608FC2 /* AppDelegate.swift */; };
+		FC4DE87E1B2C94E700608FC2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC4DE87D1B2C94E700608FC2 /* GameScene.sks */; };
+		FC4DE8801B2C94E700608FC2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DE87F1B2C94E700608FC2 /* GameScene.swift */; };
+		FC4DE8821B2C94E700608FC2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DE8811B2C94E700608FC2 /* GameViewController.swift */; };
+		FC4DE8851B2C94E700608FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4DE8831B2C94E700608FC2 /* Main.storyboard */; };
+		FC4DE8871B2C94E700608FC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4DE8861B2C94E700608FC2 /* Images.xcassets */; };
+		FC4DE88A1B2C94E700608FC2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4DE8881B2C94E700608FC2 /* LaunchScreen.xib */; };
+		FC4DE8961B2C94E700608FC2 /* Dodge_The_BladesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DE8951B2C94E700608FC2 /* Dodge_The_BladesTests.swift */; };
+		FC4DE8A01B2C99EF00608FC2 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DE89F1B2C99EF00608FC2 /* GameOverScene.swift */; };
+		FC4DE8A41B2C9C1F00608FC2 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4DE8A11B2C9C1F00608FC2 /* monster.png */; };
+		FC4DE8A51B2C9C1F00608FC2 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4DE8A21B2C9C1F00608FC2 /* player.png */; };
+		FC4DE8A61B2C9C1F00608FC2 /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4DE8A31B2C9C1F00608FC2 /* projectile.png */; };
+		FC6239E31B2E658D00F1F000 /* Benny Hill Theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC6239E21B2E658D00F1F000 /* Benny Hill Theme.mp3 */; };
+		FC6239E51B2E665300F1F000 /* DangerZone.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6239E41B2E665300F1F000 /* DangerZone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC4DE8901B2C94E700608FC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4DE86E1B2C94E600608FC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4DE8751B2C94E700608FC2;
+			remoteInfo = "Dodge The Blades";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC4DE8761B2C94E700608FC2 /* Dodge The Blades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dodge The Blades.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4DE87A1B2C94E700608FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4DE87B1B2C94E700608FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC4DE87D1B2C94E700608FC2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FC4DE87F1B2C94E700608FC2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FC4DE8811B2C94E700608FC2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FC4DE8841B2C94E700608FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC4DE8861B2C94E700608FC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC4DE8891B2C94E700608FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC4DE88F1B2C94E700608FC2 /* Dodge The BladesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dodge The BladesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4DE8941B2C94E700608FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4DE8951B2C94E700608FC2 /* Dodge_The_BladesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dodge_The_BladesTests.swift; sourceTree = "<group>"; };
+		FC4DE89F1B2C99EF00608FC2 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = ../GameOverScene.swift; sourceTree = "<group>"; };
+		FC4DE8A11B2C9C1F00608FC2 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monster.png; path = ../../../../SpriteKitSimpleGameResources/sprites.atlas/monster.png; sourceTree = "<group>"; };
+		FC4DE8A21B2C9C1F00608FC2 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player.png; path = ../../../../SpriteKitSimpleGameResources/sprites.atlas/player.png; sourceTree = "<group>"; };
+		FC4DE8A31B2C9C1F00608FC2 /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = projectile.png; path = ../../../../SpriteKitSimpleGameResources/sprites.atlas/projectile.png; sourceTree = "<group>"; };
+		FC6239E21B2E658D00F1F000 /* Benny Hill Theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Benny Hill Theme.mp3"; path = "../../All Sounds/Benny Hill Theme.mp3"; sourceTree = "<group>"; };
+		FC6239E41B2E665300F1F000 /* DangerZone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DangerZone.png; path = "../../All Photos/DangerZone.png"; sourceTree = "<group>"; };
+		FC6531C31B35C245004B6B18 /* losinghorn.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = losinghorn.m4a; path = "../../All Sounds/losinghorn.m4a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC4DE8731B2C94E700608FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4DE88C1B2C94E700608FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC4DE86D1B2C94E600608FC2 = {
+			isa = PBXGroup;
+			children = (
+				FC4DE8781B2C94E700608FC2 /* Dodge The Blades */,
+				FC4DE8921B2C94E700608FC2 /* Dodge The BladesTests */,
+				FC4DE8771B2C94E700608FC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC4DE8771B2C94E700608FC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4DE8761B2C94E700608FC2 /* Dodge The Blades.app */,
+				FC4DE88F1B2C94E700608FC2 /* Dodge The BladesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC4DE8781B2C94E700608FC2 /* Dodge The Blades */ = {
+			isa = PBXGroup;
+			children = (
+				FC4DE87B1B2C94E700608FC2 /* AppDelegate.swift */,
+				FC4DE87D1B2C94E700608FC2 /* GameScene.sks */,
+				FC4DE87F1B2C94E700608FC2 /* GameScene.swift */,
+				FC4DE89F1B2C99EF00608FC2 /* GameOverScene.swift */,
+				FC4DE8811B2C94E700608FC2 /* GameViewController.swift */,
+				FC4DE8831B2C94E700608FC2 /* Main.storyboard */,
+				FC4DE8861B2C94E700608FC2 /* Images.xcassets */,
+				FC4DE8881B2C94E700608FC2 /* LaunchScreen.xib */,
+				FC4DE8791B2C94E700608FC2 /* Supporting Files */,
+			);
+			path = "Dodge The Blades";
+			sourceTree = "<group>";
+		};
+		FC4DE8791B2C94E700608FC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC6531C31B35C245004B6B18 /* losinghorn.m4a */,
+				FC6239E21B2E658D00F1F000 /* Benny Hill Theme.mp3 */,
+				FC6239E41B2E665300F1F000 /* DangerZone.png */,
+				FC4DE8A11B2C9C1F00608FC2 /* monster.png */,
+				FC4DE8A21B2C9C1F00608FC2 /* player.png */,
+				FC4DE8A31B2C9C1F00608FC2 /* projectile.png */,
+				FC4DE87A1B2C94E700608FC2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC4DE8921B2C94E700608FC2 /* Dodge The BladesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4DE8951B2C94E700608FC2 /* Dodge_The_BladesTests.swift */,
+				FC4DE8931B2C94E700608FC2 /* Supporting Files */,
+			);
+			path = "Dodge The BladesTests";
+			sourceTree = "<group>";
+		};
+		FC4DE8931B2C94E700608FC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC4DE8941B2C94E700608FC2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC4DE8751B2C94E700608FC2 /* Dodge The Blades */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4DE8991B2C94E700608FC2 /* Build configuration list for PBXNativeTarget "Dodge The Blades" */;
+			buildPhases = (
+				FC4DE8721B2C94E700608FC2 /* Sources */,
+				FC4DE8731B2C94E700608FC2 /* Frameworks */,
+				FC4DE8741B2C94E700608FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dodge The Blades";
+			productName = "Dodge The Blades";
+			productReference = FC4DE8761B2C94E700608FC2 /* Dodge The Blades.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC4DE88E1B2C94E700608FC2 /* Dodge The BladesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4DE89C1B2C94E700608FC2 /* Build configuration list for PBXNativeTarget "Dodge The BladesTests" */;
+			buildPhases = (
+				FC4DE88B1B2C94E700608FC2 /* Sources */,
+				FC4DE88C1B2C94E700608FC2 /* Frameworks */,
+				FC4DE88D1B2C94E700608FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4DE8911B2C94E700608FC2 /* PBXTargetDependency */,
+			);
+			name = "Dodge The BladesTests";
+			productName = "Dodge The BladesTests";
+			productReference = FC4DE88F1B2C94E700608FC2 /* Dodge The BladesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC4DE86E1B2C94E600608FC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = DuberFam;
+				TargetAttributes = {
+					FC4DE8751B2C94E700608FC2 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					FC4DE88E1B2C94E700608FC2 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FC4DE8751B2C94E700608FC2;
+					};
+				};
+			};
+			buildConfigurationList = FC4DE8711B2C94E600608FC2 /* Build configuration list for PBXProject "Dodge The Blades" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC4DE86D1B2C94E600608FC2;
+			productRefGroup = FC4DE8771B2C94E700608FC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC4DE8751B2C94E700608FC2 /* Dodge The Blades */,
+				FC4DE88E1B2C94E700608FC2 /* Dodge The BladesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC4DE8741B2C94E700608FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4DE88A1B2C94E700608FC2 /* LaunchScreen.xib in Resources */,
+				FC4DE8871B2C94E700608FC2 /* Images.xcassets in Resources */,
+				FC6239E31B2E658D00F1F000 /* Benny Hill Theme.mp3 in Resources */,
+				FC4DE8A51B2C9C1F00608FC2 /* player.png in Resources */,
+				FC4DE87E1B2C94E700608FC2 /* GameScene.sks in Resources */,
+				FC4DE8A61B2C9C1F00608FC2 /* projectile.png in Resources */,
+				FC4DE8A41B2C9C1F00608FC2 /* monster.png in Resources */,
+				FC4DE8851B2C94E700608FC2 /* Main.storyboard in Resources */,
+				FC6239E51B2E665300F1F000 /* DangerZone.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4DE88D1B2C94E700608FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC4DE8721B2C94E700608FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4DE8801B2C94E700608FC2 /* GameScene.swift in Sources */,
+				FC4DE8821B2C94E700608FC2 /* GameViewController.swift in Sources */,
+				FC4DE8A01B2C99EF00608FC2 /* GameOverScene.swift in Sources */,
+				FC4DE87C1B2C94E700608FC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4DE88B1B2C94E700608FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4DE8961B2C94E700608FC2 /* Dodge_The_BladesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4DE8911B2C94E700608FC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4DE8751B2C94E700608FC2 /* Dodge The Blades */;
+			targetProxy = FC4DE8901B2C94E700608FC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC4DE8831B2C94E700608FC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4DE8841B2C94E700608FC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC4DE8881B2C94E700608FC2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4DE8891B2C94E700608FC2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC4DE8971B2C94E700608FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC4DE8981B2C94E700608FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC4DE89A1B2C94E700608FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dodge The Blades/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC4DE89B1B2C94E700608FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dodge The Blades/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC4DE89D1B2C94E700608FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dodge The BladesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dodge The Blades.app/Dodge The Blades";
+			};
+			name = Debug;
+		};
+		FC4DE89E1B2C94E700608FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dodge The BladesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dodge The Blades.app/Dodge The Blades";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC4DE8711B2C94E600608FC2 /* Build configuration list for PBXProject "Dodge The Blades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4DE8971B2C94E700608FC2 /* Debug */,
+				FC4DE8981B2C94E700608FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4DE8991B2C94E700608FC2 /* Build configuration list for PBXNativeTarget "Dodge The Blades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4DE89A1B2C94E700608FC2 /* Debug */,
+				FC4DE89B1B2C94E700608FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4DE89C1B2C94E700608FC2 /* Build configuration list for PBXNativeTarget "Dodge The BladesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4DE89D1B2C94E700608FC2 /* Debug */,
+				FC4DE89E1B2C94E700608FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC4DE86E1B2C94E600608FC2 /* Project object */;
+}

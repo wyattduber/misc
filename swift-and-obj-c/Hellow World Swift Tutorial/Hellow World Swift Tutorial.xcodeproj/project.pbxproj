@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC7EC56919CE4BE80043FEE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7EC56819CE4BE80043FEE9 /* AppDelegate.swift */; };
+		FC7EC56B19CE4BE80043FEE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7EC56A19CE4BE80043FEE9 /* ViewController.swift */; };
+		FC7EC56E19CE4BE80043FEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7EC56C19CE4BE80043FEE9 /* Main.storyboard */; };
+		FC7EC57019CE4BE80043FEE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7EC56F19CE4BE80043FEE9 /* Images.xcassets */; };
+		FC7EC57319CE4BE80043FEE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7EC57119CE4BE80043FEE9 /* LaunchScreen.xib */; };
+		FC7EC57F19CE4BE80043FEE9 /* Hellow_World_Swift_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7EC57E19CE4BE80043FEE9 /* Hellow_World_Swift_TutorialTests.swift */; };
+		FC7EC58919CE4E7B0043FEE9 /* View2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7EC58819CE4E7B0043FEE9 /* View2ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC7EC57919CE4BE80043FEE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7EC55B19CE4BE80043FEE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC7EC56219CE4BE80043FEE9;
+			remoteInfo = "Hellow World Swift Tutorial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC7EC56319CE4BE80043FEE9 /* Hellow World Swift Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hellow World Swift Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7EC56719CE4BE80043FEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7EC56819CE4BE80043FEE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC7EC56A19CE4BE80043FEE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC7EC56D19CE4BE80043FEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC7EC56F19CE4BE80043FEE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC7EC57219CE4BE80043FEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC7EC57819CE4BE80043FEE9 /* Hellow World Swift TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hellow World Swift TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7EC57D19CE4BE80043FEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7EC57E19CE4BE80043FEE9 /* Hellow_World_Swift_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hellow_World_Swift_TutorialTests.swift; sourceTree = "<group>"; };
+		FC7EC58819CE4E7B0043FEE9 /* View2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC7EC56019CE4BE80043FEE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7EC57519CE4BE80043FEE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC7EC55A19CE4BE80043FEE9 = {
+			isa = PBXGroup;
+			children = (
+				FC7EC56519CE4BE80043FEE9 /* Hellow World Swift Tutorial */,
+				FC7EC57B19CE4BE80043FEE9 /* Hellow World Swift TutorialTests */,
+				FC7EC56419CE4BE80043FEE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC7EC56419CE4BE80043FEE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC7EC56319CE4BE80043FEE9 /* Hellow World Swift Tutorial.app */,
+				FC7EC57819CE4BE80043FEE9 /* Hellow World Swift TutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC7EC56519CE4BE80043FEE9 /* Hellow World Swift Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				FC7EC56819CE4BE80043FEE9 /* AppDelegate.swift */,
+				FC7EC56A19CE4BE80043FEE9 /* ViewController.swift */,
+				FC7EC58819CE4E7B0043FEE9 /* View2ViewController.swift */,
+				FC7EC56C19CE4BE80043FEE9 /* Main.storyboard */,
+				FC7EC56F19CE4BE80043FEE9 /* Images.xcassets */,
+				FC7EC57119CE4BE80043FEE9 /* LaunchScreen.xib */,
+				FC7EC56619CE4BE80043FEE9 /* Supporting Files */,
+			);
+			path = "Hellow World Swift Tutorial";
+			sourceTree = "<group>";
+		};
+		FC7EC56619CE4BE80043FEE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC7EC56719CE4BE80043FEE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC7EC57B19CE4BE80043FEE9 /* Hellow World Swift TutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC7EC57E19CE4BE80043FEE9 /* Hellow_World_Swift_TutorialTests.swift */,
+				FC7EC57C19CE4BE80043FEE9 /* Supporting Files */,
+			);
+			path = "Hellow World Swift TutorialTests";
+			sourceTree = "<group>";
+		};
+		FC7EC57C19CE4BE80043FEE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC7EC57D19CE4BE80043FEE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC7EC56219CE4BE80043FEE9 /* Hellow World Swift Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7EC58219CE4BE80043FEE9 /* Build configuration list for PBXNativeTarget "Hellow World Swift Tutorial" */;
+			buildPhases = (
+				FC7EC55F19CE4BE80043FEE9 /* Sources */,
+				FC7EC56019CE4BE80043FEE9 /* Frameworks */,
+				FC7EC56119CE4BE80043FEE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hellow World Swift Tutorial";
+			productName = "Hellow World Swift Tutorial";
+			productReference = FC7EC56319CE4BE80043FEE9 /* Hellow World Swift Tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC7EC57719CE4BE80043FEE9 /* Hellow World Swift TutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7EC58519CE4BE80043FEE9 /* Build configuration list for PBXNativeTarget "Hellow World Swift TutorialTests" */;
+			buildPhases = (
+				FC7EC57419CE4BE80043FEE9 /* Sources */,
+				FC7EC57519CE4BE80043FEE9 /* Frameworks */,
+				FC7EC57619CE4BE80043FEE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC7EC57A19CE4BE80043FEE9 /* PBXTargetDependency */,
+			);
+			name = "Hellow World Swift TutorialTests";
+			productName = "Hellow World Swift TutorialTests";
+			productReference = FC7EC57819CE4BE80043FEE9 /* Hellow World Swift TutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC7EC55B19CE4BE80043FEE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Todd Duberstein";
+				TargetAttributes = {
+					FC7EC56219CE4BE80043FEE9 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					FC7EC57719CE4BE80043FEE9 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = FC7EC56219CE4BE80043FEE9;
+					};
+				};
+			};
+			buildConfigurationList = FC7EC55E19CE4BE80043FEE9 /* Build configuration list for PBXProject "Hellow World Swift Tutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC7EC55A19CE4BE80043FEE9;
+			productRefGroup = FC7EC56419CE4BE80043FEE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC7EC56219CE4BE80043FEE9 /* Hellow World Swift Tutorial */,
+				FC7EC57719CE4BE80043FEE9 /* Hellow World Swift TutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC7EC56119CE4BE80043FEE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7EC56E19CE4BE80043FEE9 /* Main.storyboard in Resources */,
+				FC7EC57319CE4BE80043FEE9 /* LaunchScreen.xib in Resources */,
+				FC7EC57019CE4BE80043FEE9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7EC57619CE4BE80043FEE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC7EC55F19CE4BE80043FEE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7EC56B19CE4BE80043FEE9 /* ViewController.swift in Sources */,
+				FC7EC58919CE4E7B0043FEE9 /* View2ViewController.swift in Sources */,
+				FC7EC56919CE4BE80043FEE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7EC57419CE4BE80043FEE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7EC57F19CE4BE80043FEE9 /* Hellow_World_Swift_TutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC7EC57A19CE4BE80043FEE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC7EC56219CE4BE80043FEE9 /* Hellow World Swift Tutorial */;
+			targetProxy = FC7EC57919CE4BE80043FEE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC7EC56C19CE4BE80043FEE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7EC56D19CE4BE80043FEE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC7EC57119CE4BE80043FEE9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7EC57219CE4BE80043FEE9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC7EC58019CE4BE80043FEE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC7EC58119CE4BE80043FEE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC7EC58319CE4BE80043FEE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hellow World Swift Tutorial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC7EC58419CE4BE80043FEE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hellow World Swift Tutorial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC7EC58619CE4BE80043FEE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hellow World Swift TutorialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hellow World Swift Tutorial.app/Hellow World Swift Tutorial";
+			};
+			name = Debug;
+		};
+		FC7EC58719CE4BE80043FEE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hellow World Swift TutorialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hellow World Swift Tutorial.app/Hellow World Swift Tutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC7EC55E19CE4BE80043FEE9 /* Build configuration list for PBXProject "Hellow World Swift Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7EC58019CE4BE80043FEE9 /* Debug */,
+				FC7EC58119CE4BE80043FEE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7EC58219CE4BE80043FEE9 /* Build configuration list for PBXNativeTarget "Hellow World Swift Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7EC58319CE4BE80043FEE9 /* Debug */,
+				FC7EC58419CE4BE80043FEE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC7EC58519CE4BE80043FEE9 /* Build configuration list for PBXNativeTarget "Hellow World Swift TutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7EC58619CE4BE80043FEE9 /* Debug */,
+				FC7EC58719CE4BE80043FEE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC7EC55B19CE4BE80043FEE9 /* Project object */;
+}

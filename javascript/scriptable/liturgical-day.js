@@ -6,32 +6,30 @@ const req = new Request(apiUrl);
 const apiResponse = await req.loadJSON();
 
 // Extract relevant information
-const date = apiResponse.date;
-const weekday = apiResponse.weekday;
+var dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const date = new Date(apiResponse.date);
 const celebrations = apiResponse.celebrations;
 
-// Create a message for the notification
-let message = ""
+// Create a message for the widget
+let widget = new ListWidget();
+widget.addText(`Celebrations for ${date.toLocaleDateString("en-US", dateOptions)}`);
+widget.addSpacer(10);  // Add some space between the title and the list
 
 for (const celebration of celebrations) {
-  // Check if it is the first or last for newline formatting
   if (celebrations.length == 1 || celebration === celebrations[celebrations.length - 1]) {
-    message += `- ${celebration.title}`;
+    widget.addText(`- ${celebration.title}`);
     break;
   }
-
-  message += `- ${celebration.title}\n`;
+  
+  widget.addText(message += `- ${celebration.title}\n`);
 }
 
-// Set up the notification
-let notification = new Notification();
-notification.title = 'Daily Celebrations';
-notification.body = message;
-
-// Schedule the notification for today at a specific time (e.g., 8 AM)
-const now = new Date();
-const notificationDate = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 0, 0);
-notification.schedule(notificationDate);
+// Present the widget
+if (config.runsInWidget) {
+  Script.setWidget(widget);
+} else {
+  widget.presentMedium();
+}
 
 // Complete the script
 Script.complete();
